@@ -39,7 +39,7 @@ export default function Contato() {
             </div>
             <div className="flex justify-center mt-20 mx-10 sm:mx-0 ">
 
-              <img src="images/logo_comp.png" alt="Doutor Cristiano Barcelos" />
+              <img src="images/logo_comp.png" alt="Doutor Cristiano Barcelos" className="absolute bottom-5 left-0 right-0 sm:static sm:mb-10" />
 
             </div>
 
