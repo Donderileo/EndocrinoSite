@@ -14,7 +14,7 @@ export default function Home() {
               col-start-2 row-start-2 
               sm:col-span-2 md:col-span-1
               lg:row-start-1 lg:col-start-1  
-              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100">
+              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100 lg:mt-28">
 
             <p className="sm:text-xl md:text-3xl mt-5 font-black text-roxo text-center">
               Endocrinologia
@@ -30,11 +30,11 @@ export default function Home() {
 
 
           {/*Centro Mobile-Desk*/}
-          <div className="mt-16 col-span-2 sm:col-start-1 lg:col-start-2 lg:col-span-1  md:mt-20">
+          <div className="mt-28 col-span-2 sm:col-start-1 lg:col-start-2 lg:col-span-1  md:mt-20 lg:mt-22 2xl:mt-20">
 
-            <p className="text-3xl sm:text-5xl 2xl:text-7xl font-black text-gray-700 text-center">Doutor <br /> Cristiano Barcellos</p>
+            <p className="text-3xl sm:text-5xl lg:text-6xl 2xl:text-7xl font-bold text-gray-700 text-center">Doutor <br /> Cristiano Barcellos</p>
 
-            <div className="mt-10 sm:mt-40">
+            <div className="mt-10 sm:mt-20 lg:mt-40">
               <p className="text-3xl sm:text-4xl 2xl:text-5xl text-center mb-3 font-bold text-roxo -ml-16">Endocrinologia</p>
               <p className="text-center sm:text-lg md:text-xl lg:text-3xl 2xl:text-3xl text-red-500">&</p>
               <p className="text-3xl sm:text-4xl 2xl:text-5xl text-center mt-3 font-bold text-turquesa ml-16">Metabologia</p>
@@ -43,7 +43,10 @@ export default function Home() {
             <div className="mt-32 sm:mt-20  text-center">
 
               <Link to="/contato">
-                <p className="p-4 md:px-6 bg-roxo text-white font-semibold opacity-90 hover:opacity-100">Agende sua consulta!</p>
+                <p className="p-4 md:px-6 bg-roxo text-white font-semibold opacity-90 hover:opacity-100
+                    absolute bottom-0 left-0 right-0 sm:static">
+                  Agende sua consulta!
+                </p>
               </Link>
 
             </div>
@@ -52,7 +55,7 @@ export default function Home() {
 
           <div className="hidden sm:block bg-white m-10 rounded-3xl h-5/6 shadow-2xl 
               sm:col-span-2 md:col-span-1
-              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100">
+              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100 lg:mt-28">
 
             <p className="sm:text-xl md:text-3xl  sm:mt-5 font-black text-turquesa text-center">Metabologia</p>
 

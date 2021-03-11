@@ -14,7 +14,7 @@ export default function Nav() {
 
     return (
         <nav className="bg-turquesa h-14  opacity-90 shadow-lg
-                sm:h-20">
+                sm:h-20 fixed left-0 top-0 right-0 z-40">
 
             <ul className="flex justify-between items-center">
 
@@ -57,8 +57,8 @@ export default function Nav() {
                     </li>
 
                     <li className=" hover:text-white text-xl duration-200 font-bold">
-                        <Link to="/curriculo">
-                            Currículo
+                        <Link to="/carreira">
+                            Carreira
                         </Link>
                     </li>
 
@@ -78,6 +78,7 @@ export default function Nav() {
 
             </ul>
 
+            {/*Menu sandwich*/}
             <div id="menuDrop" className="hidden bg-turquesa">
                 <ul className="flex flex-col items-center">
                     <li className="mt-6 border-2 border-roxo w-2/3 flex justify-center text-white focus:bg-roxo">
@@ -86,8 +87,8 @@ export default function Nav() {
                         </Link>
                     </li>
                     <li className="mt-2 border-2 border-roxo w-2/3 flex justify-center text-white">
-                        <Link to="/curriculo">
-                            Currículo
+                        <Link to="/carreira">
+                            Carreira
                         </Link>
                     </li>
                     <li className="mt-2 border-2 border-roxo w-2/3 flex justify-center text-white">
