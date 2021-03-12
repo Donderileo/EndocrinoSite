@@ -46,9 +46,6 @@ export default function Carreira() {
 
             </div>
           </div>
-
-
-
         </div>
       </Layout>
     </div>

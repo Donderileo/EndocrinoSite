@@ -35,18 +35,18 @@ export default function Nav() {
                 </li>
 
                 {/*if(Mobile)*/}
-                <ul className="sm:hidden flex">
+                <ul className="lg:hidden flex">
 
                     <button className="focus:outline-none" onClick={clickSandwich}>
 
-                        <li id="bar" className="absolute top-2 right-8">
+                        <li id="bar" className="absolute top-2 right-8 md:top-6">
                             <div id="bar1" className="h-1 mt-4 w-8  bg-black"></div>
                             <div id="bar2" className="h-1 mt-1 w-8  bg-black"></div>
                             <div id="bar3" className="h-1 mt-1 w-8  bg-black"></div>
                         </li>
 
                         <li id="x" className="hidden">
-                            <img src="/images/close.png" className="w-10 h-10 top-4 right-8 absolute" alt="Botao Fechar" />
+                            <img src="/images/close.png" className="w-10 h-10 top-4 md:top-6 right-8 absolute" alt="Botao Fechar" />
                         </li>
 
                     </button>
@@ -54,7 +54,7 @@ export default function Nav() {
                 </ul>
 
                 {/*if(> Mobile)*/}
-                <ul className="hidden sm:flex space-x-5 items-center mr-4">
+                <ul className="hidden lg:flex space-x-5 items-center mr-4">
 
                     <li className="hover:text-turquesa text-xl duration-200 font-bold">
                         <Link to="/">
