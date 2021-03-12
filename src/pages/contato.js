@@ -33,7 +33,7 @@ export default function Contato() {
 
                 <a href="https://www.google.com/maps/place/R.+Guaip%C3%A1,+51+-+cj+303+-+Vila+Leopoldina,+S%C3%A3o+Paulo+-+SP,+05089-001/@-23.5217751,-46.7251195,17z/data=!4m5!3m4!1s0x94cef8934dd27eb3:0x6419ffd277ab6de6!8m2!3d-23.52178!4d-46.7229308" target="_blank">
 
-                  <img src="/images/mapa.png" alt="mapa consultório" className="w-96 h-96 ml-5 sm:ml-0 mt-10 border-4 border-roxo cursor-pointer hover:shadow-2xl transform hover:translate-y-2 duration-200" />
+                  <img src="/images/mapa.png" alt="mapa consultório" className="w-96 h-96 ml-5 sm:ml-0 mt-10 border-4 border-roxo cursor-pointer hover:shadow-2xl transform hover:-translate-y-4 duration-200" />
 
                 </a>
               </div>
