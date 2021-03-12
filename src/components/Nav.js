@@ -85,7 +85,7 @@ export default function Nav() {
             </ul>
 
             {/*Menu sandwich*/}
-            <div id="menuDrop" className="hidden bg-white ">
+            <div id="menuDrop" className="hidden bg-gray-50 ">
                 <ul className="flex flex-col items-center">
                     <li className="mt-6 border-2 py-2 border-roxo w-2/3 flex justify-center text-gray-700 font-bold">
                         <Link to="/">
