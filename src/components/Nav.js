@@ -13,7 +13,7 @@ export default function Nav() {
 
 
     return (
-        <nav className="bg-gray-50 bg-opacity-50 shadow-lg
+        <nav className="bg-gray-50 shadow-lg
                 sm:h-24 fixed left-0 top-0 right-0 z-40">
 
             <ul className="flex justify-between items-center">
