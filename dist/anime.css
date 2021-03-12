@@ -1,0 +1,47 @@
+.animate-left{
+    animation-name:entry-left;
+    animation-duration:.8s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+
+@keyframes entry-left{
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.animate-right{
+    animation-name:entry-right;
+    animation-duration:.8s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+
+@keyframes entry-right{
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.animate-down{
+    animation-name:entry-down;
+    animation-duration:.8s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+
+@keyframes entry-down{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}

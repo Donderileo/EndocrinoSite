@@ -18,7 +18,8 @@ export default function Home() {
               col-start-2 row-start-2 
               sm:col-span-2 md:col-span-1
               lg:row-start-1 lg:col-start-1  
-              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100  border-2 border-transparent hover:border-roxo">
+              opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100  border-2 border-transparent hover:border-roxo
+              animate-left">
 
             <p className=" absolute top-5 left-0 right-0 sm:text-xl md:text-3xl mt-5 font-black text-roxo text-center">
               Endocrinologia
@@ -37,7 +38,7 @@ export default function Home() {
 
 
           {/*Centro Mobile-Desk*/}
-          <div className="mt-36 col-span-2 sm:col-start-1 lg:col-start-2 lg:col-span-1  md:mt-20 lg:mt-22 2xl:mt-36 ">
+          <div className="mt-36 col-span-2 sm:col-start-1 lg:col-start-2 lg:col-span-1  md:mt-20 lg:mt-22 2xl:mt-36 animate-down">
 
             <p className="text-3xl sm:text-5xl lg:text-6xl 2xl:text-7xl font-bold text-gray-700 text-center">Doutor <br /> Cristiano Barcellos</p>
 
@@ -63,7 +64,7 @@ export default function Home() {
           <div className="hidden sm:flex flex-col justify-center bg-white m-10 rounded-3xl h-5/6 shadow-2xl lg:mt-36 
               sm:col-span-2 md:col-span-1
               opacity-70 transform hover:-translate-y-4 duration-200 hover:opacity-100  border-2 border-transparent hover:border-turquesa 
-              ">
+              animate-right">
 
             <p className="  absolute top-5 left-0 right-0 sm:text-xl md:text-3xl  sm:mt-5 font-black text-turquesa text-center">Metabologia</p>
 

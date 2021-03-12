@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from '../components/Layout'
+import '../../dist/anime.css'
 
 export default function Contato() {
   return (
@@ -28,7 +29,7 @@ export default function Contato() {
 
 
 
-              <div className="flex flex-col mr-12">
+              <div className="flex flex-col mr-12 animate-down">
 
                 <a href="https://www.google.com/maps/place/R.+Guaip%C3%A1,+51+-+cj+303+-+Vila+Leopoldina,+S%C3%A3o+Paulo+-+SP,+05089-001/@-23.5217751,-46.7251195,17z/data=!4m5!3m4!1s0x94cef8934dd27eb3:0x6419ffd277ab6de6!8m2!3d-23.52178!4d-46.7229308" target="_blank">
 

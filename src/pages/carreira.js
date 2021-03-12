@@ -13,7 +13,7 @@ export default function Carreira() {
 
             <div className="flex flex-col items-center bg-white rounded-xl shadow-xl transform duration-200  hover:-translate-y-2 border-transparent border-2 hover:border-roxo">
 
-              <img className="sm:absolute mt-5  left-3 top-3 w-14 h-14 md:w-28 md:h-28 rounded-full" src="/images/logo-santos.jpg" alt="logo universidade de santos" />
+              <img className="sm:absolute mt-5 left-3 top-3 w-14 h-14 md:w-28 md:h-28 rounded-full" src="/images/logo-santos.jpg" alt="logo universidade de santos" />
 
               <p className="mt-5 text-roxo font-black text-center text-3xl sm:text-6xl ">1998</p>
               <p className="break-words text-sm lg:text-lg row-start-1 row-end-2 2xl:text-2xl font-semibold mt-5 mx-10 sm:text-center p-5 text-gray-700 2xl:py-20  ">Formado pela Faculdade de Ciências Médicas de Santos</p>
@@ -46,6 +46,9 @@ export default function Carreira() {
 
             </div>
           </div>
+
+
+
         </div>
       </Layout>
     </div>
