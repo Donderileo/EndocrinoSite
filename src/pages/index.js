@@ -43,7 +43,7 @@ export default function Home() {
 
             <div className="mt-10 sm:mt-20 lg:mt-40">
               <p className="text-3xl sm:text-4xl 2xl:text-5xl text-center mb-3 font-bold text-roxo ">Endocrinologia</p>
-              <p className="text-center sm:text-lg md:text-xl lg:text-3xl 2xl:text-3xl text-red-500">&</p>
+              <p className="text-center sm:text-lg md:text-xl lg:text-3xl 2xl:text-3xl font-semibold text-black">&</p>
               <p className="text-3xl sm:text-4xl 2xl:text-5xl text-center mt-3 font-bold text-turquesa">Metabologia</p>
             </div>
 
