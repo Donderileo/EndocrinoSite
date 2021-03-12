@@ -5,7 +5,7 @@ export default function Sintomas() {
   return (
     <div>
       <Layout>
-        <div className="mt-28">
+        <div className="mt-36">
 
           <p className="font-bold text-center text-turquesa text-5xl ">Sintomas</p>
 
