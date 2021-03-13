@@ -25,7 +25,7 @@ export default function Nav() {
                             <img src="images/logo_comp.png" alt="Doutor Cristiano Barcelos" className="ml-10 -mt-5" />
                         </div>
                         <div className="sm:hidden">
-                            <img src="images/logo.png" alt="Doutor Cristiano Barcelos" className="ml-10 h-14 mb-2" />
+                            <img src="/images/logo.png" alt="Doutor Cristiano Barcelos" className="ml-10 h-14 mb-2" />
                         </div>
                         {/* <a className="p-3 bg-roxo ml-3 text-white font-semibold
                             sm:p-4 sm:px-8 sm:text-xl sm:ml-10 
