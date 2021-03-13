@@ -5,6 +5,7 @@ import '../../dist/anime.css'
 export default function Contato() {
   return (
     <div>
+
       <Layout>
         <div className="background">
           <div className="mt-36 ">

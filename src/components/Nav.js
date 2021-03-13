@@ -27,60 +27,58 @@ export default function Nav() {
                         <div className="sm:hidden">
                             <img src="/images/logo.png" alt="Doutor Cristiano Barcelos" className="ml-10 h-14 mb-2" />
                         </div>
-                        {/* <a className="p-3 bg-roxo ml-3 text-white font-semibold
-                            sm:p-4 sm:px-8 sm:text-xl sm:ml-10 
-                            sm:bg-opacity-90 hover:bg-opacity-100">Agendar</a> */}
                     </Link>
+
 
                 </li>
 
                 {/*if(Mobile)*/}
-                <ul className="lg:hidden flex">
+                <li className="lg:hidden flex">
 
-                    <button className="focus:outline-none" onClick={clickSandwich}>
+                    <button className="focus:outline-none" aria-label="Button pages menu" onClick={clickSandwich}>
 
-                        <li id="bar" className="absolute top-2 right-8 md:top-6">
+                        <div id="bar" className="absolute top-2 right-8 md:top-6">
                             <div id="bar1" className="h-1 mt-4 w-8  bg-black"></div>
                             <div id="bar2" className="h-1 mt-1 w-8  bg-black"></div>
                             <div id="bar3" className="h-1 mt-1 w-8  bg-black"></div>
-                        </li>
+                        </div>
 
-                        <li id="x" className="hidden">
+                        <div id="x" className="hidden">
                             <img src="/images/close.png" className="w-10 h-10 top-4 md:top-6 right-8 absolute" alt="Botao Fechar" />
-                        </li>
+                        </div>
 
                     </button>
 
-                </ul>
+                </li>
 
                 {/*if(> Mobile)*/}
-                <ul className="hidden lg:flex space-x-5 items-center mr-4">
+                <li className="hidden lg:flex space-x-5 items-center mr-4">
 
-                    <li className="hover:text-turquesa text-xl duration-200 font-bold">
+                    <div className="hover:text-turquesa text-xl duration-200 font-bold">
                         <Link to="/">
                             Home
                         </Link>
-                    </li>
+                    </div>
 
-                    <li className=" hover:text-turquesa text-xl duration-200 font-bold">
+                    <div className=" hover:text-turquesa text-xl duration-200 font-bold">
                         <Link to="/carreira">
                             Carreira
                         </Link>
-                    </li>
+                    </div>
 
-                    <li className="hover:text-turquesa text-xl duration-200 font-bold">
+                    <div className="hover:text-turquesa text-xl duration-200 font-bold">
                         <Link to="/sintomas">
                             Sintomas
                         </Link>
-                    </li>
+                    </div>
 
-                    <li className="hover:text-turquesa hover:font-black text-xl duration-200 font-bold">
+                    <div className="hover:text-turquesa hover:font-black text-xl duration-200 font-bold">
                         <Link to="/contato">
                             Contato
                         </Link>
-                    </li>
+                    </div>
 
-                </ul>
+                </li>
 
             </ul>
 
