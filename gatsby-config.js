@@ -6,5 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-postcss`],
+  siteMetadata: {
+    title: "Dr Cristiano Barcellos",
+    description: "Endocrinologista e Metabologista",
+
+  },
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'pt-BR'
+      }
+    }
+  ],
 }
